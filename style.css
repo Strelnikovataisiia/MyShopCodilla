@@ -1,0 +1,27 @@
+.carousel-inner, .carousel-item {
+    height: 100vh;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.col {
+    background: #eff2f5;
+}
+
+.box {
+    padding: 0 5px;
+    margin-top: 1px;
+}
+
+.img-height {
+    height: 426px;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .mag {
+        margin-bottom: 50px;
+    }
+}
